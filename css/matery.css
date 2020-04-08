@@ -304,7 +304,6 @@ header .brand-logo .logo-img {
 }
 
 header .brand-logo{
-
     position: absolute;
     display: inline-block;
     color: #fff;
@@ -312,7 +311,7 @@ header .brand-logo{
 
 
 header .brand-logo .logo-span {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 header .button-collapse i {
