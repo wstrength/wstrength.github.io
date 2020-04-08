@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>William</title>
+  
+  <subtitle>欢迎来到William的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wstrength.github.io/"/>
+  <updated>2020-04-07T12:14:30.952Z</updated>
+  <id>http://wstrength.github.io/</id>
+  
+  <author>
+    <name>William</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java面试基础部分2</title>
+    <link href="http://wstrength.github.io/posts/ec27.html"/>
+    <id>http://wstrength.github.io/posts/ec27.html</id>
+    <published>2020-04-07T12:12:33.000Z</published>
+    <updated>2020-04-07T12:14:30.952Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://wstrength.github.io/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="http://wstrength.github.io/tags/Java/"/>
+    
+      <category term="基本语法" scheme="http://wstrength.github.io/tags/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面试基础部分1</title>
+    <link href="http://wstrength.github.io/posts/a65c.html"/>
+    <id>http://wstrength.github.io/posts/a65c.html</id>
+    <published>2020-04-07T09:49:57.000Z</published>
+    <updated>2020-04-07T12:14:01.687Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1、为什么重写-equals-还要重写-hashcode？&quot;&gt;&lt;a href=&quot;#1、为什么重写-equals-还要重写-hashcode？&quot; class=&quot;headerlink&quot; title=&quot;1、为什么重写 equals 还要重写
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://wstrength.github.io/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="http://wstrength.github.io/tags/Java/"/>
+    
+      <category term="基本语法" scheme="http://wstrength.github.io/tags/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+</feed>
