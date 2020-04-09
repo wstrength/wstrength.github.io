@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wstrength.github.io/"/>
-  <updated>2020-04-08T11:49:00.706Z</updated>
+  <updated>2020-04-09T07:01:45.983Z</updated>
   <id>http://wstrength.github.io/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java GC</title>
+    <link href="http://wstrength.github.io/posts/4946.html"/>
+    <id>http://wstrength.github.io/posts/4946.html</id>
+    <published>2020-04-09T06:55:44.000Z</published>
+    <updated>2020-04-09T07:01:45.983Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1、java-中内存泄露是啥，什么时候出现内存泄露？&quot;&gt;&lt;a href=&quot;#1、java-中内存泄露是啥，什么时候出现内存泄露？&quot; class=&quot;headerlink&quot; title=&quot;1、java 中内存泄露是啥，什么时候出现内存泄露？&quot;&gt;&lt;/a&gt;1、java
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/categories/Java-SE/"/>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/tags/Java-SE/"/>
+    
+      <category term="GC" scheme="http://wstrength.github.io/tags/GC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java IO NIO AIO</title>
+    <link href="http://wstrength.github.io/posts/10b2.html"/>
+    <id>http://wstrength.github.io/posts/10b2.html</id>
+    <published>2020-04-09T06:47:13.000Z</published>
+    <updated>2020-04-09T06:54:38.567Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1、怎么打印日志？&quot;&gt;&lt;a href=&quot;#1、怎么打印日志？&quot; class=&quot;headerlink&quot; title=&quot;1、怎么打印日志？&quot;&gt;&lt;/a&gt;1、怎么打印日志？&lt;/h3&gt;&lt;p&gt;考察点：异常&lt;br&gt;回答：&lt;br&gt;cat
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/categories/Java-SE/"/>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/tags/Java-SE/"/>
+    
+      <category term="IO NIO AIO" scheme="http://wstrength.github.io/tags/IO-NIO-AIO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 锁 JDK 反射</title>
+    <link href="http://wstrength.github.io/posts/637f.html"/>
+    <id>http://wstrength.github.io/posts/637f.html</id>
+    <published>2020-04-09T06:33:04.000Z</published>
+    <updated>2020-04-09T06:48:27.413Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;锁&quot;&gt;&lt;a href=&quot;#锁&quot; class=&quot;headerlink&quot; title=&quot;锁&quot;&gt;&lt;/a&gt;锁&lt;/h2&gt;&lt;h3 id=&quot;1、讲一下非公平锁和公平锁在-reetrantlock-里的实现&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/categories/Java-SE/"/>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/tags/Java-SE/"/>
+    
+      <category term="锁" scheme="http://wstrength.github.io/tags/%E9%94%81/"/>
+    
+      <category term="JDK" scheme="http://wstrength.github.io/tags/JDK/"/>
+    
+      <category term="反射" scheme="http://wstrength.github.io/tags/%E5%8F%8D%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java线程2</title>
+    <link href="http://wstrength.github.io/posts/da67.html"/>
+    <id>http://wstrength.github.io/posts/da67.html</id>
+    <published>2020-04-09T06:17:13.000Z</published>
+    <updated>2020-04-09T06:30:03.524Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;17、同步方法和同步代码块的区别是什么？&quot;&gt;&lt;a href=&quot;#17、同步方法和同步代码块的区别是什么？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/categories/Java-SE/"/>
+    
+    
+      <category term="Java SE" scheme="http://wstrength.github.io/tags/Java-SE/"/>
+    
+      <category term="线程" scheme="http://wstrength.github.io/tags/%E7%BA%BF%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Java线程1</title>
