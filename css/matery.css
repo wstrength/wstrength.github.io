@@ -172,7 +172,7 @@ code {
     z-index: 1;
     filter: invert(50%);
     cursor: pointer;
-} 
+}
 
 .code-expand {
     position: absolute;
@@ -241,6 +241,8 @@ mark {
 
 .card .card-image img {
     border-radius: 8px 8px 0 0;
+    /* 修改文章列表图片填充样式为 cover 以覆盖整个区域而不会被缩放 */
+    object-fit: cover;
 }
 
 .container .row {
@@ -294,7 +296,7 @@ header .nav-transparent {
 }
 
 header nav .brand-span {
-    font-size: 2.1rem;
+    font-size: 1.45rem;
 }
 
 header .brand-logo .logo-img {
@@ -303,15 +305,13 @@ header .brand-logo .logo-img {
     padding-bottom: 6px;
 }
 
-header .brand-logo{
-    position: absolute;
-    display: inline-block;
-    color: #fff;
-}
-
-
 header .brand-logo .logo-span {
     font-size: 2rem;
+}
+
+/*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
+header .brand-logo .waves-effect {
+    vertical-align: top;
 }
 
 header .button-collapse i {
@@ -605,14 +605,14 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-
-   /* 0%,
+/*
+    0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
-   }
+    }
 
     16% {
         background: rgba(132, 13, 121, 0.75);
@@ -647,8 +647,7 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
-*/
+    }*/
 }
 
 @keyframes rainbow {
@@ -694,8 +693,7 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
-*/
+    }*/
 }
 
 .index-card {
@@ -1308,6 +1306,7 @@ thead {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .12);
+    z-index: 0;
 }
 
 .chip-container .chip:hover {
@@ -1996,7 +1995,7 @@ footer .copy-right {
     /* absolute position */
     position: absolute;
     /* set position to right bottom corner of block */
-    right: 0;
+    right: 0.2em;
     bottom: 0;
 }
 
@@ -2011,7 +2010,8 @@ footer .copy-right {
     /* set width and height */
     width: 1em;
     height: 1em;
-    margin-top: 0.2em;
+    /* fix the problem of hidden failure */
+    margin-top: 0.4em;
     /* bg color = bg color under block */
     background: white;
 }
