@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java线程2, William">
+    <meta name="keywords" content="计算机网络2, William">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Java线程2 | William</title>
+    <title>计算机网络2 | William</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/libs/awesome/css/all.css">
@@ -501,12 +501,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/28.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Java线程2</h1>
+                    <h1 class="description center-align post-title">计算机网络2</h1>
                 </div>
             </div>
         </div>
@@ -631,12 +631,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Java-SE/">
-                                <span class="chip bg-color">Java SE</span>
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                <span class="chip bg-color">计算机网络</span>
                             </a>
                         
-                            <a href="/tags/%E7%BA%BF%E7%A8%8B/">
-                                <span class="chip bg-color">线程</span>
+                            <a href="/tags/%E7%BD%91%E7%BB%9C%E5%B1%82/">
+                                <span class="chip bg-color">网络层</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%BA%94%E7%94%A8%E5%B1%82/">
+                                <span class="chip bg-color">应用层</span>
                             </a>
                         
                     </div>
@@ -647,8 +651,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Java-SE/" class="post-category">
-                                Java SE
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-category">
+                                计算机网络
                             </a>
                         
                     </div>
@@ -660,28 +664,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-09
+                    2020-04-17
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-09
+                    2020-04-17
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.3k
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    5 分
                 </div>
                 
 
@@ -696,74 +700,14 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="17、同步方法和同步代码块的区别是什么？"><a href="#17、同步方法和同步代码块的区别是什么？" class="headerlink" title="17、同步方法和同步代码块的区别是什么？"></a>17、同步方法和同步代码块的区别是什么？</h3><p>考察点：A JAVA  代码块同步<br>回答：<br>区别：<br>同步方法默认用 this 或者当前类 class 对象作为锁；</p>
-<p>同步代码块可以选择以什么来加锁，比同步方法要更细颗粒度，我们可以选择只同步会发生同步问题的部分代码而不是整个方法；</p>
-<h3 id="18、在监视器-Monitor-内部，是如何做线程同步的？程序应该做哪种级别的同步？"><a href="#18、在监视器-Monitor-内部，是如何做线程同步的？程序应该做哪种级别的同步？" class="headerlink" title="18、在监视器(Monitor)内部，是如何做线程同步的？程序应该做哪种级别的同步？"></a>18、在监视器(Monitor)内部，是如何做线程同步的？程序应该做哪种级别的同步？</h3><p>考察点： JAVA  线程同步<br>回答：<br>监视器和锁在 Java 虚拟机中是一块使用的。监视器监视一块同步代码块，确保一次只有一个线程执行同步代码块。每一个监视器都和一个对象引用相关联。线程在获取锁之前不允许执行同步代码。</p>
-<h3 id="19、sleep-和-wait-有什么区别？"><a href="#19、sleep-和-wait-有什么区别？" class="headerlink" title="19、sleep() 和 wait() 有什么区别？"></a>19、sleep() 和 wait() 有什么区别？</h3><p>考察点：线程<br>回答：<br>sleep 是线程类（Thread）的方法，导致此线程暂停执行指定时间，把执行机会给其他线程，但是监控状态依然保持，到时后会自动恢复。调用 sleep 不会释放对象锁。wait 是 Object 类的方法，对此对象调用 wait 方法导致本线程放弃对象锁，进入等待此对象的等待锁定池，只有针对此对象发出 notify方法（或 notifyAll）后本线程才进入对象锁定池准备获得对象锁进入运行状态。</p>
-<h3 id="20、同步和异步有何异同，在什么情况下分别使用他们？举例说明。"><a href="#20、同步和异步有何异同，在什么情况下分别使用他们？举例说明。" class="headerlink" title="20、同步和异步有何异同，在什么情况下分别使用他们？举例说明。"></a>20、同步和异步有何异同，在什么情况下分别使用他们？举例说明。</h3><p>考察点：线程同步<br>回答：<br>如果数据将在线程间共享。例如正在写的数据以后可能被另一个线程读到，或者正在读的数据可能已经被另一个线程写过了，那么这些数据就是共享数据，必须进行同步存取。当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。</p>
-<h3 id="21、设计-4-个线程，其中两个线程每次对-j-增加-1，另外两个线程对-j-每次减少1。使用内部类实现线程，对-j-增减的时候没有考虑顺序问题。"><a href="#21、设计-4-个线程，其中两个线程每次对-j-增加-1，另外两个线程对-j-每次减少1。使用内部类实现线程，对-j-增减的时候没有考虑顺序问题。" class="headerlink" title="21、设计 4 个线程，其中两个线程每次对 j 增加 1，另外两个线程对 j 每次减少1。使用内部类实现线程，对 j 增减的时候没有考虑顺序问题。"></a>21、设计 4 个线程，其中两个线程每次对 j 增加 1，另外两个线程对 j 每次减少1。使用内部类实现线程，对 j 增减的时候没有考虑顺序问题。</h3><p>考察点：JAVA  线程<br>回答：</p>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ThreadTest1</span><span class="token punctuation">{</span>
-<span class="token keyword">private</span> <span class="token keyword">int</span> j<span class="token punctuation">;</span>
-<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String args<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-ThreadTest1 tt<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">ThreadTest1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Inc inc<span class="token operator">=</span>tt<span class="token punctuation">.</span><span class="token keyword">new</span> <span class="token class-name">Inc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-Dec dec<span class="token operator">=</span>tt<span class="token punctuation">.</span><span class="token keyword">new</span> <span class="token class-name">Dec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">2</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-Thread t<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Thread</span><span class="token punctuation">(</span>inc<span class="token punctuation">)</span><span class="token punctuation">;</span>
-t<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-t<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Thread</span><span class="token punctuation">(</span>dec<span class="token punctuation">)</span><span class="token punctuation">;</span>
-t<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">private</span> <span class="token keyword">synchronized</span> <span class="token keyword">void</span> <span class="token function">inc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-j<span class="token operator">++</span><span class="token punctuation">;</span>
-System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>Thread<span class="token punctuation">.</span><span class="token function">currentThread</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">"-inc:"</span><span class="token operator">+</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">private</span> <span class="token keyword">synchronized</span> <span class="token keyword">void</span> <span class="token function">dec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-j<span class="token operator">--</span><span class="token punctuation">;</span>
-System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>Thread<span class="token punctuation">.</span><span class="token function">currentThread</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">"-dec:"</span><span class="token operator">+</span>j<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">class</span> <span class="token class-name">Inc</span> <span class="token keyword">implements</span> <span class="token class-name">Runnable</span><span class="token punctuation">{</span>
-<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-<span class="token function">inc</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">class</span> <span class="token class-name">Dec</span> <span class="token keyword">implements</span> <span class="token class-name">Runnable</span><span class="token punctuation">{</span>
-<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-<span class="token function">dec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
-<h3 id="22、启动一个线程是用-run-还是-start"><a href="#22、启动一个线程是用-run-还是-start" class="headerlink" title="22、启动一个线程是用 run()还是 start()?"></a>22、启动一个线程是用 run()还是 start()?</h3><p>考察点：JAVA  线程<br>回答：<br>启动一个线程是调用 start()方法，使线程所代表的虚拟处理机处于可运行状态，这意味着它可以由 JVM 调度并执行。这并不意味着线程就会立即运行。run()方法可以产生必须退出的标志来停止一个线程。</p>
-<h3 id="23、请说出你所知道的线程同步的方法"><a href="#23、请说出你所知道的线程同步的方法" class="headerlink" title="23、请说出你所知道的线程同步的方法"></a>23、请说出你所知道的线程同步的方法</h3><p>考察点：线程同步<br>回答：<br>wait():使一个线程处于等待状态，并且释放所持有的对象的 lock。sleep():使一个正在运行的线程处于睡眠状态，是一个静态方法，调用此方法要捕捉InterruptedException 异常。notify():唤醒一个处于等待状态的线程，注意的是在调用此方法的时候，并不能确切的唤醒某一个等待状态的线程，而是由 JVM 确定唤醒哪个线程，而且不是按优先级。Allnotity():唤醒所有处入等待状态的线程，注意并不是给所有唤醒线程一个对象的锁，而是让<br>它们竞争。</p>
-<h3 id="24、多线程有几种实现方法-都是什么-同步有几种实现方法-都是什么"><a href="#24、多线程有几种实现方法-都是什么-同步有几种实现方法-都是什么" class="headerlink" title="24、多线程有几种实现方法,都是什么?同步有几种实现方法,都是什么?"></a>24、多线程有几种实现方法,都是什么?同步有几种实现方法,都是什么?</h3><p>考察点：线程<br>回答：<br>多线程有两种实现方法，分别是继承Thread类与实现Runnable接口同步的实现方面有两种，分别是synchronized,wait 与 notify。</p>
-<h3 id="25、java-中有几种方法可以实现一个线程？用什么关键字修饰同步方法-stop-和-suspend-方法为何不推荐使用？"><a href="#25、java-中有几种方法可以实现一个线程？用什么关键字修饰同步方法-stop-和-suspend-方法为何不推荐使用？" class="headerlink" title="25、java 中有几种方法可以实现一个线程？用什么关键字修饰同步方法? stop()和 suspend()方法为何不推荐使用？"></a>25、java 中有几种方法可以实现一个线程？用什么关键字修饰同步方法? stop()和 suspend()方法为何不推荐使用？</h3><p>考察点：线程<br>回答：<br>有两种实现方法，分别是继承 Thread 类与实现 Runnable 接口用 synchronized 关键字修饰同步方法，反对使用 stop()，是因为它不安全。它会解除由线程获取的所有锁定，而且如果对象处于一种不连贯状态，那么其他线程能在那种状态下检查和修改它们。结果很难检查出真正的问题所在。suspend()方法容易发生死锁。调用 suspend()的时候，目标线程会停下来，但却仍然持有在这之前获得的锁定。此时，其他任何线程都不能访问锁定的资源，除非被”挂起”的线程恢复运行。对任何线程来说，如果它们想恢复目标线程，同时又试图使用任何一个锁定的资源，就会造成死锁。所以不应该使用 suspend()，而应在自己的 Thread 类中置入一个标志，指出线程应该活动还是挂起。若标志指出线程应该挂起，便用 wait()命其进入等待状态。若标志指出线程应当恢复，则用一个 notify()重新启动线程。</p>
-<h3 id="26、线程的-sleep-方法和-yield-方法有什么区别？"><a href="#26、线程的-sleep-方法和-yield-方法有什么区别？" class="headerlink" title="26、线程的 sleep()方法和 yield()方法有什么区别？"></a>26、线程的 sleep()方法和 yield()方法有什么区别？</h3><p>考察点：线程<br>回答：<br>sleep()方法给其他线程运行机会时不考虑线程的优先级，因此会给低优先级的线程以运行的机会；yield()方法只会给相同优先级或更高优先级的线程以运行的机会；<br>② 线程执行 sleep()方法后转入阻塞（blocked）状态，而执行 yield()方法后转入就绪（ready）状态；<br>③ sleep()方法声明抛出 InterruptedException，而 yield()方法没有声明任何异常；<br>④ sleep()方法比 yield()方法（跟操作系统 CPU 调度相关）具有更好的可移植性。</p>
-<h3 id="27、当一个线程进入一个对象的-synchronized-方法-A-之后，其它线程是否可进入此对象的-synchronized-方法-B？"><a href="#27、当一个线程进入一个对象的-synchronized-方法-A-之后，其它线程是否可进入此对象的-synchronized-方法-B？" class="headerlink" title="27、当一个线程进入一个对象的 synchronized 方法 A 之后，其它线程是否可进入此对象的 synchronized 方法 B？"></a>27、当一个线程进入一个对象的 synchronized 方法 A 之后，其它线程是否可进入此对象的 synchronized 方法 B？</h3><p>考察点：线程<br>回答：</p>
-<p>不能。其它线程只能访问该对象的非同步方法，同步方法则不能进入。因为非静态方法上的synchronized 修饰符要求执行方法时要获得对象的锁，如果已经进入 A 方法说明对象锁已经被取走，那么试图进入 B 方法的线程就只能在等锁池（注意不是等待池哦）中等待对象的锁。</p>
-<h3 id="28、请说出与线程同步以及线程调度相关的方法。"><a href="#28、请说出与线程同步以及线程调度相关的方法。" class="headerlink" title="28、请说出与线程同步以及线程调度相关的方法。"></a>28、请说出与线程同步以及线程调度相关的方法。</h3><p>考察点：线程同步<br>参考回答：</p>
-<ul>
-<li>wait()：使一个线程处于等待（阻塞）状态，并且释放所持有的对象的锁；</li>
-<li>sleep()：使一个正在运行的线程处于睡眠状态，是一个静态方法，调用此方法要处理InterruptedException 异常；</li>
-<li>notify()：唤醒一个处于等待状态的线程，当然在调用此方法的时候，并不能确切的唤醒某一个等待状态的线程，而是由 JVM 确定唤醒哪个线程，而且与优先级无关；</li>
-<li>notityAll()：唤醒所有处于等待状态的线程，该方法并不是将对象的锁给所有线程，而是让它们竞争，只有获得锁的线程才能进入就绪状态；通过 Lock 接口提供了显式的锁机制（explicit lock），增强了灵活性以及对线程的协调。Lock 接口中定义了加锁（lock()）和解锁（unlock()）的方法，同时还提供了 newCondition()方法来产生用于线程之间通信的 Condition 对象；此外，Java 5 还提供了信号量机制（semaphore），信号量可以用来限制对某个共享资源进行访问的线程的数量。在对资源进行访问之前，线程必须得到信号量的许可（调用 Semaphore 对象的 acquire()方法）；在完成对资源的访问后，线程必须向信号量归还许可（调用 Semaphore 对象的 release()方法）。</li>
-</ul>
-<h3 id="29、举例说明同步和异步"><a href="#29、举例说明同步和异步" class="headerlink" title="29、举例说明同步和异步"></a>29、举例说明同步和异步</h3><p>考察点：线程<br>回答：<br>如果系统中存在临界资源（资源数量少于竞争资源的线程数量的资源），例如正在写的数据以后可能被另一个线程读到，或者正在读的数据可能已经被另一个线程写过了，那么这些数据就必须进行同步存取（数据库操作中的排他锁就是最好的例子）。当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。事实上，所谓的同步就是指阻塞式操作，而异步就是非阻塞式操作。</p>
-<h3 id="30、什么是线程池（thread-pool）？"><a href="#30、什么是线程池（thread-pool）？" class="headerlink" title="30、什么是线程池（thread pool）？"></a>30、什么是线程池（thread pool）？</h3><p>考察点：线程池<br>回答：<br>在面向对象编程中，创建和销毁对象是很费时间的，因为创建一个对象要获取内存资源或者其它更多资源。在 Java 中更是如此，虚拟机将试图跟踪每一个对象，以便能够在对象销毁后进行垃圾回收。所以提高服务程序效率的一个手段就是尽可能减少创建和销毁对象的次数，特别是一些很耗资源的对象创建和销毁，这就是”池化资源”技术产生的原因。线程池顾名思义就是事先创建若干个可执行的线程放入一个池（容器）中，需要的时候从池中获取线程不用自行创建，使用完毕不需要销毁线程而是放回池中，从而减少创建和销毁线程对象的开销。Java 5+中的 Executor 接口定义一个执行线程的工具。它的子类型即线程池接口是ExecutorService。要配置一个线程池是比较复杂的，尤其是对于线程池的原理不是很清楚的情况下，因此在工具类 Executors 面提供了一些静态工厂方法，生成一些常用的线程池，如下所示：</p>
-<ul>
-<li>newSingleThreadExecutor：创建一个单线程的线程池。这个线程池只有一个线程在工作，也就是相当于单线程串行执行所有任务。如果这个唯一的线程因为异常结束，那么会有一个新的线程来替代它。此线程池保证所有任务的执行顺序按照任务的提交顺序执行。</li>
-<li>newFixedThreadPool：创建固定大小的线程池。每次提交一个任务就创建一个线程，直到线程达到线程池的最大大小。线程池的大小一旦达到最大值就会保持不变，如果某个线程因为执行异常而结束，那么线程池会补充一个新线程。</li>
-<li>newCachedThreadPool：创建一个可缓存的线程池。如果线程池的大小超过了处理任务所需要的线程，那么就会回收部分空闲（60 秒不执行任务）的线程，当任务数增加时，此线程池又可以智能的添加新线程来处理任务。此线程池不会对线程池大小做限制，线程池大小完全依赖于操作系统（或者说 JVM）能够创建的最大线程大小。</li>
-<li>newScheduledThreadPool：创建一个大小无限的线程池。此线程池支持定时以及周期性执行任务的需求。</li>
-<li>newSingleThreadExecutor：创建一个单线程的线程池。此线程池支持定时以及周期性执行任务的需求。</li>
-</ul>
-<h3 id="31、说说线程的基本状态以及状态之间的关系？"><a href="#31、说说线程的基本状态以及状态之间的关系？" class="headerlink" title="31、说说线程的基本状态以及状态之间的关系？"></a>31、说说线程的基本状态以及状态之间的关系？</h3><p>考察点：线程<br>回答：<br>其中 Running 表示运行状态，Runnable 表示就绪状态（万事俱备，只欠 CPU），Blocked 表示阻塞状态，阻塞状态又有多种情况，可能是因为调用 wait()方法进入等待池，也可能是执行同步方法或同步代码块进入等锁池，或者是调用了 sleep()方法或 join()方法等待休眠或其他线程结束，或是因为发生了 I/O 中断。</p>
-<h3 id="32、如何保证线程安全？"><a href="#32、如何保证线程安全？" class="headerlink" title="32、如何保证线程安全？"></a>32、如何保证线程安全？</h3><p>考察点：线程<br>回答：<br>通过合理的时间调度，避开共享资源的存取冲突。另外，在并行任务设计上可以通过适当的策略，保证任务与任务之间不存在共享资源，设计一个规则来保证一个客户的计算工作和数据访问只会被一个线程或一台工作机完成，而不是把一个客户的计算工作分配给多个线程去完成。</p>
+                <h3 id="1、arp-协议，arp-攻击"><a href="#1、arp-协议，arp-攻击" class="headerlink" title="1、arp 协议，arp 攻击"></a>1、arp 协议，arp 攻击</h3><p>考察点： ARP  协议<br>回答：<br>地址解析协议。ARP 攻击的第一步就是 ARP 欺骗。由上述“ARP 协议的工作过程”我们知道，ARP 协议基本没有对网络的安全性做任何思考，当时人们考虑的重点是如何保证网络通信能够正确和快速的完成——ARP 协议工作的前提是默认了其所在的网络是一个善良的网络，每台主机在向网络中发送应答信号时都是使用的真实身份。不过后来，人们发现 ARP 应答中的 IP 地址和 MAC地址中的信息是可以伪造的，并不一定是自己的真实 IP 地址和 MAC 地址，由此，ARP 欺骗就产生了。</p>
+<h3 id="2、网际控制报文协议-ICMP协议"><a href="#2、网际控制报文协议-ICMP协议" class="headerlink" title="2、网际控制报文协议 ICMP协议"></a>2、网际控制报文协议 ICMP协议</h3><p>考察点： ICMP  协议<br>回答：<br>它是 TCP/IP 协议族的一个子协议，用于在 IP 主机、路由器之间传递控制消息。控制消息是指网络通不通、主机是否可达、路由是否可用等网络本身的消息。这些控制消息虽然并不传输用户数据，但是对于用户数据的传递起着重要的作用。</p>
+<h3 id="3、讲一下路由器和交换机的区别？"><a href="#3、讲一下路由器和交换机的区别？" class="headerlink" title="3、讲一下路由器和交换机的区别？"></a>3、讲一下路由器和交换机的区别？</h3><p>考察点：路由器<br>回答：<br>交换机用于同一网络内部数据的快速传输转发决策通过查看二层头部完成转发不需要修数据帧工作在 TCP/IP 协议的二层 —— 数据链路层工作简单，直接使用硬件处理路由器用于不同网络间数据的跨网络传输转发决策通过查看三层头部完成转发需要修改 TTL ，IP 头部校验和需要重新计算，数据帧需要重新封装工作在 TCP/IP 协议的三层 —— 网络层工作复杂，使用软件处理。</p>
+<h3 id="4、DNS-寻址过程"><a href="#4、DNS-寻址过程" class="headerlink" title="4、DNS 寻址过程"></a>4、DNS 寻址过程</h3><p>考察点：DNS</p>
+<p>回答：<br>1、在浏览器中输入 <a href="http://www.qq.com" target="_blank" rel="noopener">www.qq.com</a> 域名，操作系统会先检查自己本地的 hosts 文件是否有这个网址映射关系，如果有，就先调用这个 IP 地址映射，完成域名解析。<br>2、如果 hosts 里没有这个域名的映射，则查找本地 DNS 解析器缓存，是否有这个网址映射<br>关系，如果有，直接返回，完成域名解析。<br>3、如果 hosts 与本地 DNS 解析器缓存都没有相应的网址映射关系，首先会找 TCP/ip 参数中设置的首选 DNS 服务器，在此我们叫它本地 DNS 服务器，此服务器收到查询时，如果要查询的域名，包含在本地配置区域资源中，则返回解析结果给客户机，完成域名解析，此解析具有权威性。<br>4、如果要查询的域名，不由本地 DNS 服务器区域解析，但该服务器已缓存了此网址映射关系，则调用这个 IP 地址映射，完成域名解析，此解析不具有权威性。<br>5、如果本地 DNS 服务器本地区域文件与缓存解析都失效，则根据本地 DNS 服务器的设置（是<br>否设置转发器）进行查询，如果未用转发模式，本地 DNS 就把请求发至 13 台根 DNS，根 DNS 服务器收到请求后会判断这个域名(.com)是谁来授权管理，并会返回一个负责该顶级域名服务器的<br>一个 IP。本地 DNS 服务器收到 IP 信息后，将会联系负责.com 域的这台服务器。这台负责.com<br>域的服务器收到请求后，如果自己无法解析，它就会找一个管理.com 域的下一级 DNS 服务器地<br>址(qq.com)给本地 DNS 服务器。当本地 DNS 服务器收到这个地址后，就会找 qq.com 域服器，<br>重复上面的动作，进行查询，直至找到 <a href="http://www.qq.com" target="_blank" rel="noopener">www.qq.com</a> 主机。<br>6、如果用的是转发模式，此 DNS 服务器就会把请求转发至上一级 DNS 服务器，由上一级服务器进行解析，上一级服务器如果不能解析，或找根 DNS 或把转请求转至上上级，以此循环。不管是本地 DNS 服务器用是是转发，还是根提示，最后都是把结果返回给本地 DNS 服务器，由此DNS 服务器再返回给客户机。</p>
+<p>从客户端到本地 DNS 服务器是属于递归查询，而 DNS 服务器之间就是的交互查询就是迭代查询。</p>
+<h3 id="5、负载均衡反向代理模式优点及缺点"><a href="#5、负载均衡反向代理模式优点及缺点" class="headerlink" title="5、负载均衡反向代理模式优点及缺点"></a>5、负载均衡反向代理模式优点及缺点</h3><p>考察点：反向代理<br>回答：<br>（1）反向代理（Reverse Proxy）方式是指以代理服务器来接受 internet 上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给 internet 上请求连接的客户端，此时代理服务器对外就表现为一个服务器。<br>（2）反向代理负载均衡技术是把将来自 internet 上的连接请求以反向代理的方式动态地转发给内部网络上的多台服务器进行处理，从而达到负载均衡的目的。<br>（3）反向代理负载均衡能以软件方式来实现，如 apache mod_proxy、netscape proxy 等，也可以在高速缓存器、负载均衡器等硬件设备上实现。反向代理负载均衡可以将优化的负载均衡策略和代理服务器的高速缓存技术结合在一起，提升静态网页的访问速度，提供有益的性能；由于网络外部用户不能直接访问真实的服务器，具备额外的安全性（同理，NAT 负载均衡技术也有此点）。</p>
+<p>（4）其缺点主要表现在以下两个方面<br>反向代理是处于 OSI 参考模型第七层应用的，所以就必须为每一种应用服务专门开发一个反向代理服务器，这样就限制了反向代理负载均衡技术的应用范围，现在一般都用于对 web 服务器的负载均衡。<br>针对每一次代理，代理服务器就必须打开两个连接，一个对外，一个对内，因此在并发连接请求数量非常大的时候，代理服务器的负载也就非常大了，在最后代理服务器本身会成为服务的瓶颈。<br>一般来讲，可以用它来对连接数量不是特别大，但每次连接都需要消耗大量处理资源的站点进行负载均衡，如 search 等。</p>
 
             </div>
             <hr/>
@@ -789,7 +733,7 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wstrength.github.io/posts/da67.html">http://wstrength.github.io/posts/da67.html</a>
+                    <a href="http://wstrength.github.io/posts/eb71.html">http://wstrength.github.io/posts/eb71.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -827,12 +771,16 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Java-SE/">
-                                    <span class="chip bg-color">Java SE</span>
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                                    <span class="chip bg-color">计算机网络</span>
                                 </a>
                             
-                                <a href="/tags/%E7%BA%BF%E7%A8%8B/">
-                                    <span class="chip bg-color">线程</span>
+                                <a href="/tags/%E7%BD%91%E7%BB%9C%E5%B1%82/">
+                                    <span class="chip bg-color">网络层</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%BA%94%E7%94%A8%E5%B1%82/">
+                                    <span class="chip bg-color">应用层</span>
                                 </a>
                             
                         </div>
@@ -1263,58 +1211,56 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/637f.html">
+                <a href="/posts/eb71.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://gitee.com/williamaaa/blogimage/raw/master/img/6.gif" data-original="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="Java 锁 JDK 反射">
+                        <img src="https://gitee.com/williamaaa/blogimage/raw/master/img/6.gif" data-original="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="计算机网络2">
                         
-                        <span class="card-title">Java 锁 JDK 反射</span>
+                        <span class="card-title">计算机网络2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            锁1、讲一下非公平锁和公平锁在 reetrantlock 里的实现考察点：锁回答：如果一个锁是公平的，那么锁的获取顺序就应该符合请求的绝对时间顺序，FIFO。对于非公平锁，只要 CAS 设置同步状态成功，则表示当前线程获取了锁，而公平锁还需
+                            1、arp 协议，arp 攻击考察点： ARP  协议回答：地址解析协议。ARP 攻击的第一步就是 ARP 欺骗。由上述“ARP 协议的工作过程”我们知道，ARP 协议基本没有对网络的安全性做任何思考，当时人们考虑的重点是如何保证网络通信能
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-09
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-17
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-SE/" class="post-category">
-                                    Java SE
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-category">
+                                    计算机网络
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java-SE/">
-                        <span class="chip bg-color">Java SE</span>
+                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">计算机网络</span>
                     </a>
                     
-                    <a href="/tags/%E9%94%81/">
-                        <span class="chip bg-color">锁</span>
+                    <a href="/tags/%E7%BD%91%E7%BB%9C%E5%B1%82/">
+                        <span class="chip bg-color">网络层</span>
                     </a>
                     
-                    <a href="/tags/JDK/">
-                        <span class="chip bg-color">JDK</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8F%8D%E5%B0%84/">
-                        <span class="chip bg-color">反射</span>
+                    <a href="/tags/%E5%BA%94%E7%94%A8%E5%B1%82/">
+                        <span class="chip bg-color">应用层</span>
                     </a>
                     
                 </div>
@@ -1328,32 +1274,32 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/db27.html">
+                <a href="/posts/ea31.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://gitee.com/williamaaa/blogimage/raw/master/img/6.gif" data-original="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/29.jpg" class="responsive-img" alt="Java线程1">
+                        <img src="https://gitee.com/williamaaa/blogimage/raw/master/img/6.gif" data-original="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/medias/featureimages/2.jpg" class="responsive-img" alt="计算机网络1">
                         
-                        <span class="card-title">Java线程1</span>
+                        <span class="card-title">计算机网络1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1、多线程中的 i++线程安全吗？为什么？考察点：多线程回答：不安全。i++不是原子性操作。i++分为读取 i 值，对 i 值加一，再赋值给 i++，执行期中任何一步都是有可能被其他线程抢占的。
-2、如何线程安全的实现一个计数器？考察点：多
+                            一、网络概述1、TCP 协议在哪一层？IP 协议在那一层？HTTP 在哪一层？考察点：网络七层模型回答：运输层，网络层，应用层。
+二、运输层1、讲一下 TCP 的连接和释放连接。考察点：网络基础回答：三次握手的过程1）主机 A 向主机 B 
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-16
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java-SE/" class="post-category">
-                                    Java SE
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="post-category">
+                                    计算机网络
                                 </a>
                             
                             
@@ -1363,12 +1309,16 @@ System<span class="token punctuation">.</span>out<span class="token punctuation"
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java-SE/">
-                        <span class="chip bg-color">Java SE</span>
+                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">计算机网络</span>
                     </a>
                     
-                    <a href="/tags/%E7%BA%BF%E7%A8%8B/">
-                        <span class="chip bg-color">线程</span>
+                    <a href="/tags/%E6%A6%82%E8%BF%B0/">
+                        <span class="chip bg-color">概述</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%BF%90%E8%BE%93%E5%B1%82/">
+                        <span class="chip bg-color">运输层</span>
                     </a>
                     
                 </div>
