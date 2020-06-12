@@ -39,11 +39,11 @@
       <category term="计算机网络" scheme="http://wstrength.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="计算机网络" scheme="http://wstrength.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
       <category term="网络层" scheme="http://wstrength.github.io/tags/%E7%BD%91%E7%BB%9C%E5%B1%82/"/>
     
       <category term="应用层" scheme="http://wstrength.github.io/tags/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+    
+      <category term="计算机网络" scheme="http://wstrength.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -488,9 +488,9 @@
     
       <category term="Java SE" scheme="http://wstrength.github.io/tags/Java-SE/"/>
     
-      <category term="关键字" scheme="http://wstrength.github.io/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
-    
       <category term="基本语法" scheme="http://wstrength.github.io/tags/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    
+      <category term="关键字" scheme="http://wstrength.github.io/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
   </entry>
   
