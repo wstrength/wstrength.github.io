@@ -293,13 +293,6 @@
  </script></head>
 
 
-<script type="text/javascript">
-    var OriginTitile=document.title,st;
-    document.addEventListener("visibilitychange",function(){
-        document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
-    })
-</script>
-
 
  <div id="loading-container">
      <p class="loading-text">玩命加载中 . . . </p> 
@@ -589,16 +582,8 @@
         display: block;
     }
 
-    .toc-fixed .toc-link::before{
-        position: fixed!important;/*当toc的位置改为fixed时，.toc-link::before也要改为fixed*/
-    }
-
     #toc-content .is-active-link {
         color: #42b983;
-    }
-
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
     }
 
     #floating-toc-btn {
@@ -665,32 +650,12 @@
                 
 
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-08
-                </div>
+
                 
 
                 
-                <div class="info-break-policy">
-                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
-                </div>
-                
 
                 
-                <div class="info-break-policy">
-                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
-                </div>
-                
-
-                
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
             </div>
         </div>
         <hr class="clearfix">
@@ -716,7 +681,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wstrength.github.io" rel="external nofollow noreferrer">William</a>
+                    <a href="/about" rel="external nofollow noreferrer">William</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -739,7 +704,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://wstrength.github.io" target="_blank">William</a>
+                    <a href="/about" target="_blank">William</a>
                     !
                 </span>
             </div>
@@ -1175,7 +1140,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/libs/valine/av-min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/libs/valine/Valine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.iohttps://unpkg.com/valine/dist/Valine.min.js"></script>
 <script>
     new Valine({
         el: '#vcomments',
@@ -1314,43 +1279,6 @@
 </div>
 
 
-<script>
-    $('#articleContent').on('copy', function (e) {
-        // IE8 or earlier browser is 'undefined'
-        if (typeof window.getSelection === 'undefined') return;
-
-        var selection = window.getSelection();
-        // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('20')) {
-            return;
-        }
-
-        // create a div outside of the visible area and fill it with the selected text.
-        var bodyElement = document.getElementsByTagName('body')[0];
-        var newdiv = document.createElement('div');
-        newdiv.style.position = 'absolute';
-        newdiv.style.left = '-99999px';
-        bodyElement.appendChild(newdiv);
-        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-        // we need a <pre> tag workaround.
-        // otherwise the text inside "pre" loses all the line breaks!
-        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
-            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-        }
-
-        var url = document.location.href;
-        newdiv.innerHTML += '<br />'
-            + '来源: William<br />'
-            + '文章作者: William<br />'
-            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-        selection.selectAllChildren(newdiv);
-        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
-    });
-</script>
-
 
 <!-- 代码块功能依赖 -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/wstrength/wstrength.github.io/libs/codeBlock/codeBlockFuction.js"></script>
@@ -1484,11 +1412,10 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="http://wstrength.github.io" target="_blank">William</a>
+            <a href="/about" target="_blank">William</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
-            
-            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">43.6k</span>&nbsp;字
             
             
             
