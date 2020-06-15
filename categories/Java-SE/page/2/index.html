@@ -304,6 +304,14 @@
          <div></div>
      </div>
  </div><body>
+<script type="text/javascript">    
+var OriginTitile=document.title,st;	
+document.addEventListener("visibilitychange",function(){       
+ document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))    
+})
+</script>
+
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -674,12 +682,12 @@
                             <span class="chip bg-color">Java SE</span>
                         </a>
                         
-                        <a href="/tags/%E5%85%B3%E9%94%AE%E5%AD%97/">
-                            <span class="chip bg-color">关键字</span>
-                        </a>
-                        
                         <a href="/tags/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
                             <span class="chip bg-color">基本语法</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%85%B3%E9%94%AE%E5%AD%97/">
+                            <span class="chip bg-color">关键字</span>
                         </a>
                         
                     </div>
@@ -828,6 +836,9 @@
             <span id="year">2020</span>
             <a href="/about" target="_blank">William</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">43.6k</span>&nbsp;字
             
             
             

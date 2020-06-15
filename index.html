@@ -304,6 +304,14 @@
          <div></div>
      </div>
  </div><body>
+<script type="text/javascript">    
+var OriginTitile=document.title,st;	
+document.addEventListener("visibilitychange",function(){       
+ document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))    
+})
+</script>
+
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -715,32 +723,6 @@
     
     
     <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/12.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/Java-SE/" class="category">Java SE</a>
-                        
-                    
-                </div>
-                <a href="/posts/ec27.html">
-                    <h3 class="post-title">Java基础部分2</h3>
-                </a>
-                <p class="post-description">
-                    
-                        11、什么是值传递和引用传递？考察点：JAVA  引用传递回答：值传递是对基本型变量而言的,传递的是该变量的一个副本,改变副本不影响原变量。
-                    
-                </p>
-                <a href="/posts/ec27.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" >
         <div class="post-card" style="background-image: url('/medias/featureimages/11.jpg')">
             <div class="post-body">
                 <div class="post-categories">
@@ -760,7 +742,33 @@
 ​        Hash
                     
                 </p>
-                <a href="/posts/a65c.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <a href="/posts/a65c.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/12.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/Java-SE/" class="category">Java SE</a>
+                        
+                    
+                </div>
+                <a href="/posts/ec27.html">
+                    <h3 class="post-title">Java基础部分2</h3>
+                </a>
+                <p class="post-description">
+                    
+                        11、什么是值传递和引用传递？考察点：JAVA  引用传递回答：值传递是对基本型变量而言的,传递的是该变量的一个副本,改变副本不影响原变量。
+                    
+                </p>
+                <a href="/posts/ec27.html" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -1466,6 +1474,9 @@
             <span id="year">2020</span>
             <a href="/about" target="_blank">William</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">43.6k</span>&nbsp;字
             
             
             
